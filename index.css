@@ -1,0 +1,37 @@
+header {
+    background-color: green;
+    color: lightgreen;
+    padding: 20px;
+    grid-area: header;
+}
+
+nav {
+    background-color: yellow;
+    grid-area: nav;
+}
+
+main {
+    background-color: lightgreen;
+    color: green;
+    grid-area: main;
+}
+aside {
+    background-color: aqua;
+    grid-area: aside;
+}
+body {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main aside"
+    "footer footer footer"
+    ;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-evenly;
+}
