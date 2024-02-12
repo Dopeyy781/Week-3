@@ -1,22 +1,22 @@
 header {
-    background-color: green;
-    color: lightgreen;
+    background-color: #014e2e;
+    color: #c1d32f;
     padding: 20px;
     grid-area: header;
 }
 
 nav {
-    background-color: yellow;
+    background-color: #c1d32f;
     grid-area: nav;
 }
 
 main {
-    background-color: lightgreen;
-    color: green;
+    background-color: #013006;
+    color: #c1d32f;
     grid-area: main;
 }
 aside {
-    background-color: aqua;
+    background-color: #c1d32f;
     grid-area: aside;
 }
 body {
